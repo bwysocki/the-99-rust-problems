@@ -1,5 +1,5 @@
 pub fn reverse_a_list<T: Clone>(list: &Vec<T>) -> Vec<T> {
-    let mut cloned = list.clone(); //list.to_vec();
+    let mut cloned = list.clone(); list.to_vec();
     cloned.reverse();
     cloned
 }
